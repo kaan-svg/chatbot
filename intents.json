@@ -1,0 +1,192 @@
+{
+  "intents": [
+    {
+      "tag": "selamlama",
+      "patterns": [
+        "Merhaba",
+        "Selam",
+        "Selamün aleyküm",
+        "Hey",
+        "Hi",
+        "Hello",
+        "İyi günler",
+        "Günaydın",
+        "İyi akşamlar",
+        "Nasılsın"
+      ],
+      "responses": [
+        "Merhaba! Size nasıl yardımcı olabilirim?",
+        "Selam! Hoş geldiniz!",
+        "Aleyküm selam! Ne ile ilgileniyorsunuz?",
+        "İyi günler! Size nasil destek olabilirim?",
+        "Merhaba! Bugün nasıl geçiyor?"
+      ]
+    },
+    {
+      "tag": "vedalaşma",
+      "patterns": [
+        "Bye",
+        "Güle güle",
+        "Hoşçakal",
+        "Görüşürüz",
+        "İyi günler",
+        "Çıkış",
+        "Kapanış",
+        "Teşekkürler",
+        "Sağol"
+      ],
+      "responses": [
+        "Hoşçakalın! İyi günler!",
+        "Görüşürüz! Tekrar bekleriz!",
+        "İyi günler! Yardımcı olabildiysem ne mutlu!",
+        "Güle güle! Her zaman buradayım!",
+        "Hoşçakal! Başka bir şeye ihtiyacın olursa gel!"
+      ]
+    },
+    {
+      "tag": "teşekkür",
+      "patterns": [
+        "Teşekkürler",
+        "Teşekkür ederim",
+        "Sağol",
+        "Eyvallah",
+        "Çok teşekkürler",
+        "Thanks",
+        "Thank you",
+        "Süper",
+        "Harika"
+      ],
+      "responses": [
+        "Rica ederim! Size yardım etmek benim için bir zevk!",
+        "Önemli değil! Başka bir şeye ihtiyacınız varsa söyleyin!",
+        "Ne demek! Her zaman yardıma hazırım!",
+        "Memnun oldum yardımcı olabildiğim için!",
+        "Rica ederim! İyi günler!"
+      ]
+    },
+    {
+      "tag": "yardım",
+      "patterns": [
+        "Yardım",
+        "Help",
+        "Nasıl kullanırım",
+        "Ne yapabilirsin",
+        "Hangi konularda yardım edebilirsin",
+        "Neler yapıyorsun",
+        "Komutlar",
+        "Özellikler"
+      ],
+      "responses": [
+        "Size birçok konuda yardımcı olabilirim! Sorularınızı sorabilirsiniz.",
+        "Merhaba! Ben bir yardımcı botum. Size nasıl destek olabilirim?",
+        "Çeşitli konularda sorular sorabilir, bilgi alabilirsiniz!",
+        "Size yardım etmek için buradayım! Ne merak ediyorsunuz?"
+      ]
+    },
+    {
+      "tag": "hava_durumu",
+      "patterns": [
+        "Hava nasıl",
+        "Bugün hava durumu",
+        "Yağmur yağacak mı",
+        "Sıcaklık kaç derece",
+        "Hava sıcak mı",
+        "Dışarı çıksam mı"
+      ],
+      "responses": [
+        "Maalesef anlık hava durumu bilgim yok, hava durumu sitelerine bakmanızı öneririm!",
+        "Hava durumu için meteoroloji sitelerine göz atabilirsiniz!",
+        "Güncel hava bilgisi için yerel hava durumu uygulamalarını kullanabilirsiniz!"
+      ]
+    },
+    {
+      "tag": "zaman",
+      "patterns": [
+        "Saat kaç",
+        "Bugün hangi gün",
+        "Tarih nedir",
+        "Kaçıncı ay",
+        "Hangi yıl",
+        "Time",
+        "Date"
+      ],
+      "responses": [
+        "Maalesef anlık saat bilgim yok, sisteminizin saatine bakabilirsiniz!",
+        "Tarih ve saat için cihazınızın saat uygulamasını kullanabilirsiniz!",
+        "Güncel tarih ve saat bilgisi için sisteminizin tarih/saat ayarlarına bakın!"
+      ]
+    },
+    {
+      "tag": "anlamadım",
+      "patterns": [
+        "Ne demek istiyorsun",
+        "Anlamadım",
+        "Ne",
+        "Hah",
+        "Nasıl yani",
+        "Ne diyon",
+        "Anlamıyorum"
+      ],
+      "responses": [
+        "Üzgünüm, sizi tam anlayamadım. Lütfen daha açık bir şekilde sorabilir misiniz?",
+        "Sorunuzu biraz daha detaylandırabilir misiniz?",
+        "Ne demek istediğinizi anlayamadım, başka türlü sorabilir misiniz?",
+        "Lütfen sorunuzu daha net bir şekilde ifade edebilir misiniz?"
+      ]
+    },
+    {
+      "tag": "kişisel_sorular",
+      "patterns": [
+        "Adın ne",
+        "Kim sin",
+        "Ne iş yapıyorsun",
+        "Kaç yaşındasın",
+        "Nerelisin",
+        "Evli misin",
+        "Hobiler",
+        "Sen kimsin"
+      ],
+      "responses": [
+        "Ben bir chatbot'um! Size yardımcı olmak için buradayım.",
+        "Merhaba! Ben sizinle sohbet eden bir yapay zeka asistanıyım.",
+        "Ben bir sanal asistanım, sorularınızı yanıtlamaya çalışıyorum!",
+        "Benim adım yok, sadece size yardım etmeye odaklanmış bir botum!"
+      ]
+    },
+    {
+      "tag": "şaka_mizah",
+      "patterns": [
+        "Şaka yap",
+        "Komik bir şey söyle",
+        "Beni güldür",
+        "Espri",
+        "Joke",
+        "Funny",
+        "Mizah"
+      ],
+      "responses": [
+        "Neden bilgisayarlar soğuk algınlığına yakalanmaz? Çünkü pencereleri her zaman kapalıdır! 😄",
+        "Programcının en sevdiği içecek nedir? Java! ☕",
+        "Neden robotlar asla paniklemez? Çünkü onların sakin kalma algoritması vardır! 🤖",
+        "En iyi şaka hangisidir? Henüz programlanmamış olanı! 😅"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "Ne yapıyorsun",
+        "Merhaba dünya",
+        "Test",
+        "Deneme",
+        "123",
+        "Alo"
+      ],
+      "responses": [
+        "Merhaba! Size nasıl yardımcı olabilirim?",
+        "Buradayım! Ne yapmak istiyorsunuz?",
+        "Selam! Sorularınızı bekliyorum!",
+        "İyi günler! Size nasıl destek olabilirim?"
+      ]
+    }
+  ]
+}

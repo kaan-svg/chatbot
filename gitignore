@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Eğitim sonrası çıkan dosyalar (yüklenecek değil)
+*.pkl
+*.h5
+
+# IDE / Editor dosyaları
+.vscode/
+.idea/
