@@ -1,14 +1,14 @@
-# 🤖 Python Chatbot (NLP & Deep Learning)
+# Python Chatbot (NLP & Deep Learning)
 
 Bu proje, **Python + NLP (Natural Language Processing)** kullanılarak geliştirilmiş basit bir **chatbot uygulamasıdır**.  
 Amaç: Chatbot geliştirme sürecini öğrenmek isteyenlere örnek bir temel sağlamaktır.  
 
-⚠️ Not: Eğitim sonrası oluşan model dosyaları (`.pkl`, `.h5`) bu repoya dahil edilmemiştir.  
+Not: Eğitim sonrası oluşan model dosyaları (`.pkl`, `.h5`) bu repoya dahil edilmemiştir.  
 Kullanıcıların **kendi bilgisayarlarında eğitmesi** gerekmektedir.  
 
 ---
 
-## ✨ Özellikler
+##  Özellikler
 - Kullanıcı cümlesini tokenize etme ve lemmatization (NLTK ile)  
 - Bag of Words yaklaşımı  
 - TensorFlow/Keras tabanlı basit yapay sinir ağı modeli  
@@ -16,7 +16,7 @@ Kullanıcıların **kendi bilgisayarlarında eğitmesi** gerekmektedir.
 
 ---
 
-## 🚀 Kurulum
+## Kurulum
 1. Bu repoyu indir veya klonla:
    ```bash
    git clone https://github.com/kullanici-adi/chatbot.git
@@ -30,7 +30,7 @@ Kullanıcıların **kendi bilgisayarlarında eğitmesi** gerekmektedir.
 
 ---
 
-## 🧠 Modeli Eğitme
+##  Modeli Eğitme
 1. Eğitim scriptini çalıştır:
    ```bash
    python train.py
@@ -44,7 +44,7 @@ Kullanıcıların **kendi bilgisayarlarında eğitmesi** gerekmektedir.
 
 ---
 
-## 💬 Chatbot'u Çalıştırma
+##  Chatbot'u Çalıştırma
 ```bash
 python chatbot.py
 ```
@@ -58,20 +58,20 @@ Bot: Merhaba! Sana nasıl yardımcı olabilirim?
 
 ---
 
-## 📂 Proje Yapısı
+##  Proje Yapısı
 ```
-📦 chatbot
- ┣ 📜 chatbot.py         # Ana chatbot dosyası
- ┣ 📜 train.py           # Modeli eğitmek için kullanılan script
- ┣ 📜 intents.json       # Kullanıcı niyetleri ve cevaplar
- ┣ 📜 requirements.txt   # Gerekli kütüphaneler
- ┣ 📜 README.md          # Proje açıklaması
- ┗ 📜 .gitignore         # Gereksiz dosyaları gizler
+ chatbot
+ ┣  chatbot.py         # Ana chatbot dosyası
+ ┣  train.py           # Modeli eğitmek için kullanılan script
+ ┣  intents.json       # Kullanıcı niyetleri ve cevaplar
+ ┣  requirements.txt   # Gerekli kütüphaneler
+ ┣  README.md          # Proje açıklaması
+ ┗  .gitignore         # Gereksiz dosyaları gizler
 ```
 
 ---
 
-## ⚙️ Gereksinimler
+##  Gereksinimler
 - Python 3.8+  
 - TensorFlow / Keras  
 - NLTK  
@@ -79,11 +79,11 @@ Bot: Merhaba! Sana nasıl yardımcı olabilirim?
 
 ---
 
-## 📌 Katkıda Bulunma
+## Katkıda Bulunma
 - Yeni intentler ekleyerek chatbot'u geliştirebilirsin.  
 - Pull request gönderebilirsin.  
 
 ---
 
-## 📜 Lisans
+##  Lisans
 Bu proje öğrenme amaçlıdır, serbestçe kullanılabilir.  
